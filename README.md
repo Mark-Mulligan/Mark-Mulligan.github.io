@@ -14,3 +14,7 @@ decided to take the next step by attending the SMU Coding Bootcamp to study Full
 
 ## Skills
 HTML, CSS, Javascript, Bootstrap, Jquery, Node.js, Express.js, Mongodb, and React
+
+![About Page Screenshot](./assets/images/AboutPageScreenshot.png)
+
+![Projects Page Screenshot](./assets/images/ProjectPageScreenshot.png)
