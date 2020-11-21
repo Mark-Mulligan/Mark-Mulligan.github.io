@@ -1,0 +1,445 @@
+body {
+    background-image: url('../images/glowing-keyboard.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+hr {
+    background-color: rgb(213, 211, 210);
+}
+
+/* ----- NAVBAR ----- */
+.navbar {
+    padding: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: grey;
+}
+
+.navbar button {
+    margin: 10px;
+}
+
+.navbar-brand {
+    padding: 15px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding: 15px 30px !important;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .navbar-spacer {
+        width: 140px;
+    }
+}
+
+/* ----- INDEX PAGE ----- */
+.hero-section {
+    min-height: 100vh;
+    color: rgb(213, 211, 210);
+    background-color: rgb(33, 33, 33, 0.9);
+}
+
+.name-container {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.name-container h1 {
+    font-size: 4rem;
+}
+
+.ml5 {
+    position: relative;
+    font-weight: 300;
+    font-size: 4.5em;
+    color: rgb(213, 211, 210);
+}
+
+.ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1em;
+}
+
+.ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color: rgb(213, 211, 210);
+    transform-origin: 0.5 0;
+}
+
+.ml5 .letters {
+    display: inline-block;
+    color: white;
+}
+
+.ml1 {
+    font-weight: 300;
+    font-size: 2.1em;
+    padding-left: 2px;
+    color: rgb(145, 145, 145);
+}
+
+.ml1 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+/* ----- ABOUT PAGE ----- */
+.about-section {
+    min-height: 100vh;
+    color: rgb(213, 211, 210);
+    background-color: rgba(30, 20, 42, 0.9);
+}
+
+.about-container {
+    margin-top: 40px;
+}
+
+.about-title-container {
+    margin-bottom: 25px;
+}
+
+.about-title-container h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.about-title-container hr {
+    background-color: rgb(213, 211, 210);
+}
+
+.profile-picture-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text-col {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.last-p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    .about-container {
+        margin-top: 40px;
+    }
+
+    .about-text-col {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+}
+
+
+/* ----- PROJECTS PAGE ----- */
+.projects-section {
+    min-height: 100vh;
+    color: rgb(213, 211, 210);
+    background-color: rgb(0, 0, 30, 0.9);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.projects-container {
+    max-width: 750px !important;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.project-title-container h1{
+    font-size: 40px;
+}
+
+.project-title-container h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.overview-text-container {
+    padding-top: 20px;
+}
+
+.overview-text-container p {
+    font-size: 18px;
+}
+
+/* ----- SKillS PAGE ----- */
+.skills-section {
+    min-height: 100vh;
+    color: rgb(213, 211, 210);
+    background-color: rgb(0, 40, 0, 0.9);
+}
+
+.skills-container {
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.skills-container h1 {
+    font-size: 40px;
+}
+
+.skills-title-container {
+    text-align: center;
+}
+
+.skill-bars-wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.skill-bars-wrapper h4 {
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.bar {
+    width: 100%;
+    height: 15px;
+    background-color: black;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px #2187e7b3;
+    overflow: hidden;
+    padding: 0;
+}
+
+.html-bar {
+    width: 90%;
+    height: 100%;
+}
+
+.css-bar {
+    width: 85%;
+    height: 100%;
+}
+
+.javascript-bar {
+    width: 90%;
+    height: 100%;
+}
+
+.bootstrap-bar {
+    width: 88%;
+    height: 100%;
+}
+
+.nodejs-bar {
+    width: 70%;
+    height: 100%;
+}
+
+.mongodb-bar {
+    width: 30%;
+    height: 100%;
+}
+
+.filler-bar {
+    height: 100%;
+    width: 100%;
+    animation: 3s fillbar;
+    /* animation-delay: 2s; */
+    background-color: green;
+}
+
+@keyframes fillbar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+/* ----- CONTACT PAGE ----- */ 
+.contact-section {
+    min-height: 100vh;
+    color: rgb(213, 211, 210);
+    background-color: rgb(50, 0, 0, 0.9);
+}
+
+.contact-container {
+    max-width: 800px;
+    margin-top: 40px;
+}
+
+.contact-title-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-title-container h1 {
+    font-size: 40px;
+}
+
+.contact-container label{
+    font-size: 20px;
+}
+
+.submit-btn-container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.status-container {
+    margin-top: 10px;
+}
+
+.status {
+    font-size: 20px;
+    display: inline-block;
+    padding: 3px;
+}
+
+.contact-links-container {
+    max-width: 800px;
+    margin-top: 40px;
+}
+
+@media (max-width: 575px) {
+    .contact-links-container {
+        margin-top: 10px;
+    }
+}
+
+.contact-link-wrapper {
+    margin-bottom: 50px;
+}
+
+.contact-link {
+    color: rgb(213, 211, 210);
+}
+
+.contact-link:hover {
+    color: grey;
+}
+
+/* Page Transitions */
+.transition-from-top {
+    animation: moveInFromTop 1.4s;
+}
+
+.transition-from-bottom {
+    animation: moveInFromBottom 1.4s;
+}
+
+.transition-from-left {
+    animation: moveInFromLeft 1.4s;
+}
+
+.transition-from-right {
+    animation: moveInFromRight 1.4s;
+}
+
+.transition-fade-in {
+    animation: transitionFadeIn 0.8s;
+}
+
+
+ 
+
+@keyframes transitionFadeIn {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes moveInFromTop {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveInFromBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+/* ---- GENERAL CLASSES ----- */
+.hidden {
+    display: none;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgb(213, 211, 210);
+}
+
