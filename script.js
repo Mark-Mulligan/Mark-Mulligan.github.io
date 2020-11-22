@@ -8,6 +8,8 @@ function init() {
         runProjectJavascript();
     } else if (document.querySelector('.contact-section')) {
         handleContactMessage();
+    } else if (document.querySelector('.skills-section')) {
+        skillPageAnimation();
     }
 }
 
@@ -129,8 +131,28 @@ function animatedTitle() {
         duration: 800,
         easing: "easeOutExpo",
         delay: 500
+    }).add({
+        targets: '.contact-links-container',
+        opacity: [0, 1],
+        duration: 1000,
+        easing: "linear",
     });
 }
+
+function skillPageAnimation () {
+    console.log('skill animation');
+
+    anime.timeline().add({
+        targets: '.fade-in-effect',
+        opacity: [0, 1],
+        translateX: [-125, 0],
+        duration: 400, 
+        easing: "linear",
+        delay: anime.stagger(90, {start: 1000})
+    })
+}
+
+
 
 function runProjectJavascript() {
     console.log('project js ran');

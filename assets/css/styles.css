@@ -57,9 +57,9 @@ hr {
 }
 
 .name-container {
-    margin-top: 200px;
     text-align: center;
     padding: 10px;
+    margin-top: 200px; 
 }
 
 .name-container h1 {
@@ -202,85 +202,28 @@ hr {
 }
 
 .skills-container {
-    margin: 40px auto;
-    max-width: 800px;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .skills-container h1 {
     font-size: 40px;
 }
 
-.skills-title-container {
-    text-align: center;
-}
-
-.skill-bars-wrapper {
-    width: 90%;
-    margin: auto;
-}
-
-.skill-bars-wrapper h4 {
-    margin-top: 25px;
-    margin-left: 5px;
-}
-
-.bar {
-    width: 100%;
-    height: 15px;
-    background-color: black;
-    border-radius: 15px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 0 0 10px #2187e7b3;
-    overflow: hidden;
+.skills-container ul {
     padding: 0;
 }
 
-.html-bar {
-    width: 90%;
-    height: 100%;
+.skills-container li {
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
 }
 
-.css-bar {
-    width: 85%;
-    height: 100%;
+.skills-row {
+    margin-top: 20px;
 }
 
-.javascript-bar {
-    width: 90%;
-    height: 100%;
-}
-
-.bootstrap-bar {
-    width: 88%;
-    height: 100%;
-}
-
-.nodejs-bar {
-    width: 70%;
-    height: 100%;
-}
-
-.mongodb-bar {
-    width: 30%;
-    height: 100%;
-}
-
-.filler-bar {
-    height: 100%;
-    width: 100%;
-    animation: 3s fillbar;
-    /* animation-delay: 2s; */
-    background-color: green;
-}
-
-@keyframes fillbar {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 100%;
-    }
-}
 
 /* ----- CONTACT PAGE ----- */ 
 .contact-section {
@@ -363,19 +306,14 @@ hr {
 }
 
 .transition-fade-in {
-    animation: transitionFadeIn 0.8s;
+    animation: transitionFadeIn ease-in 2s;
 }
-
-
- 
 
 @keyframes transitionFadeIn {
     from {
-        transform: translateY(-100%);
         opacity: 0;
     }
     to {
-        transform: translateY(0);
         opacity: 1;
     }
     
@@ -431,6 +369,16 @@ hr {
 .hidden {
     display: none;
 }
+
+
+.not-shown {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+    transition: opacity 1000ms;
+  }
 
 .border-bottom {
     border-bottom: 1px solid rgb(213, 211, 210);
