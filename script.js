@@ -154,8 +154,6 @@ function skillPageAnimation() {
     })
 }
 
-
-
 function runProjectJavascript() {
     console.log('project js ran');
     let projectInfo = [{
