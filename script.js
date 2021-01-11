@@ -139,16 +139,18 @@ function animatedTitle() {
     });
 }
 
-function skillPageAnimation () {
+function skillPageAnimation() {
     console.log('skill animation');
 
     anime.timeline().add({
         targets: '.fade-in-effect',
         opacity: [0, 1],
         translateX: [-125, 0],
-        duration: 400, 
+        duration: 400,
         easing: "linear",
-        delay: anime.stagger(90, {start: 1000})
+        delay: anime.stagger(90, {
+            start: 1000
+        })
     })
 }
 
@@ -157,16 +159,16 @@ function skillPageAnimation () {
 function runProjectJavascript() {
     console.log('project js ran');
     let projectInfo = [{
+            title: 'Ultimate List App',
+            overview: 'This is a full stack web app that allows the user to create an account, create lists, update them and delete them.  It is built on an express server, uses mongoDB to store data, and features passport for authentication.',
+            liveLink: 'https://ultimatelistapp.herokuapp.com/',
+            githubLink: 'https://github.com/MarkMulligan97/ultimateListApp'
+        },
+        {
             title: 'Percussion Scale Website',
             overview: 'This is a custom program I built for my percussion students. Because of Covid, many of my students were at home. A lot of them did not have access to mallet percussion instruments, so I built this website to help them practice their scales.',
             liveLink: 'https://markmulligan97.github.io/percussionScaleWebsite',
             githubLink: 'https://github.com/MarkMulligan97/percussionScaleWebsite'
-        },
-        {
-            title: 'Dictonary App',
-            overview: 'This web appliction is built on an express.js server.  It takes in user input and uses a third-party api to return the definition of the searched word, its synonyms, and examples.',
-            liveLink: 'https://dictionary-app-1757.herokuapp.com/',
-            githubLink: 'https://dashboard.heroku.com/apps/dictionary-app-1757'
         },
         {
             title: 'Weather Dashboard',
