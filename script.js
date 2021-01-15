@@ -166,7 +166,7 @@ function runProjectJavascript() {
             title: 'React Hangman App',
             overview: 'This application is built with React on top of an Express.js server.  It is my take on the traditional hangman game. The words for the game are generated randomly through a third party API. The app utilizes many different elements of React such as hooks, state, and conditional rendering.',
             liveLink: 'https://hangman-react-app.herokuapp.com/',
-            githubLink: 'https://github.com/MarkMulligan97/react-hangman-app'
+            githubLink: 'https://github.com/MarkMulligan97/reactHangmanApp'
         },
         {
             title: 'Percussion Scale Website',
