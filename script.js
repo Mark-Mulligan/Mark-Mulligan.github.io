@@ -160,19 +160,19 @@ function runProjectJavascript() {
             title: 'Ultimate List App',
             overview: 'This is a full stack web app that allows the user to create an account, create lists, update them and delete them.  It is built on an express server, uses mongoDB to store data, and features passport for authentication.',
             liveLink: 'https://ultimatelistapp.herokuapp.com/',
-            githubLink: 'https://github.com/MarkMulligan97/ultimateListApp'
+            githubLink: 'https://github.com/Mark-Mulligan/ultimateListApp'
         },
         {
             title: 'React Hangman App',
             overview: 'This application is built with React on top of an Express.js server.  It is my take on the traditional hangman game. The words for the game are generated randomly through a third party API. The app utilizes many different elements of React such as hooks, state, and conditional rendering.',
             liveLink: 'https://hangman-react-app.herokuapp.com/',
-            githubLink: 'https://github.com/MarkMulligan97/reactHangmanApp'
+            githubLink: 'https://github.com/Mark-Mulligan/reactHangmanApp'
         },
         {
             title: 'Percussion Scale Website',
             overview: 'This is a custom program I built for my percussion students. Because of Covid, many of my students were at home. A lot of them did not have access to mallet percussion instruments, so I built this website to help them practice their scales.',
             liveLink: 'https://markmulligan97.github.io/percussionScaleWebsite',
-            githubLink: 'https://github.com/MarkMulligan97/percussionScaleWebsite'
+            githubLink: 'https://github.com/Mark-Mulligan/percussionScaleWebsite'
         },
         {
             title: 'Corana Survival Guide',
