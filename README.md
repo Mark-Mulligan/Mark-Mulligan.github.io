@@ -13,7 +13,15 @@ decided to take the next step by attending the SMU Coding Bootcamp to study Full
 [Click Here](https://markmulligan97.github.io/)
 
 ## Skills
-HTML, CSS, Javascript, Bootstrap, Jquery, Node.js, Express.js, Mongodb, and React
+* React.js
+* Node.js
+* Express.js
+* MongoDB
+* MySQL
+* Bootstrap
+* HTML
+* CSS
+* Javascript
 
 ## Portfolio Screenshots
 ![About Page Screenshot](./assets/images/AboutPageScreenshot.png)
