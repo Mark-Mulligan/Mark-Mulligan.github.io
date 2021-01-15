@@ -10,7 +10,7 @@ decided to take the next step by attending the SMU Coding Bootcamp to study Full
 [Click Here](https://markmulligan97.github.io/assets/images/MarkMulligan-Resume.pdf)
 
 ### Personal Portfolio
-[Click Here](https://markmulligan97.github.io/)
+[Click Here](https://Mark-Mulligan.github.io/)
 
 ## Skills
 * React.js
