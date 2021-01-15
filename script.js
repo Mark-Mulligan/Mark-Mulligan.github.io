@@ -163,16 +163,16 @@ function runProjectJavascript() {
             githubLink: 'https://github.com/MarkMulligan97/ultimateListApp'
         },
         {
+            title: 'React Hangman App',
+            overview: 'This application is built with React on top of an Express.js server.  It is my take on the traditional hangman game. The words for the game are generated randomly through a third party API. The app utilizes many different elements of React such as hooks, state, and conditional rendering.',
+            liveLink: 'https://hangman-react-app.herokuapp.com/',
+            githubLink: 'https://github.com/MarkMulligan97/react-hangman-app'
+        },
+        {
             title: 'Percussion Scale Website',
             overview: 'This is a custom program I built for my percussion students. Because of Covid, many of my students were at home. A lot of them did not have access to mallet percussion instruments, so I built this website to help them practice their scales.',
             liveLink: 'https://markmulligan97.github.io/percussionScaleWebsite',
             githubLink: 'https://github.com/MarkMulligan97/percussionScaleWebsite'
-        },
-        {
-            title: 'Weather Dashboard',
-            overview: 'This website uses a third-party API to display the current weather and 5 day forecast based on the users input.',
-            liveLink: 'https://markmulligan97.github.io/weatherDashboard',
-            githubLink: 'https://github.com/MarkMulligan97/weatherDashboard'
         },
         {
             title: 'Corana Survival Guide',
