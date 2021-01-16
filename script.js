@@ -157,6 +157,13 @@ function skillPageAnimation() {
 function runProjectJavascript() {
     console.log('project js ran');
     let projectInfo = [{
+            title: 'Eat The Burger',
+            overview: 'This application is built on an express server and uses a mySQL to persist data. In this application, the user can create new burgers, eat the burgers, and then remove eaten burgers. On the front end, html is rendered dynamically using express-handlebars and is fully responsive with bootstrap.',
+            liveLink: 'https://eattheburgerapp4357.herokuapp.com',
+            githubLink: 'https://github.com/Mark-Mulligan/eatTheBurger'
+
+        },
+        {
             title: 'Ultimate List App',
             overview: 'This is a full stack web app that allows the user to create an account, create lists, update them and delete them.  It is built on an express server, uses mongoDB to store data, and features passport for authentication.',
             liveLink: 'https://ultimatelistapp.herokuapp.com/',
