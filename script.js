@@ -195,7 +195,7 @@ function runProjectJavascript() {
     $('.carousel-control-prev').click(function () {
         currentProject = $('.carousel-item.active').attr('data-project-num');
         if (currentProject != 0) currentProject--;
-        else currentProject = 3;
+        else currentProject = 4;
         setTimeout(function () {
             udpateProjectInfo(projectInfo);
         }, 460)
@@ -203,7 +203,7 @@ function runProjectJavascript() {
 
     $('.carousel-control-next').click(function () {
         currentProject = $('.carousel-item.active').attr('data-project-num');
-        if (currentProject != 3) currentProject++;
+        if (currentProject != 4) currentProject++;
         else currentProject = 0;
         setTimeout(function () {
             udpateProjectInfo(projectInfo);
