@@ -178,7 +178,7 @@ function runProjectJavascript() {
         {
             title: 'Percussion Scale Website',
             overview: 'This is a custom program I built for my percussion students. Because of Covid, many of my students were at home. A lot of them did not have access to mallet percussion instruments, so I built this website to help them practice their scales.',
-            liveLink: 'https://markmulligan97.github.io/percussionScaleWebsite',
+            liveLink: 'https://mark-mulligan.github.io/percussionScaleWebsite',
             githubLink: 'https://github.com/Mark-Mulligan/percussionScaleWebsite'
         },
         {
