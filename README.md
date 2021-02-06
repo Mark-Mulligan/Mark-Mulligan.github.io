@@ -24,6 +24,6 @@ decided to take the next step by attending the SMU Coding Bootcamp to study Full
 * Javascript
 
 ## Portfolio Screenshots
-![About Page Screenshot](./assets/images/AboutPageScreenshot.png)
+![About Page Screenshot](./assets/images/AboutPageScreenshot.jpg)
 
-![Projects Page Screenshot](./assets/images/ProjectPageScreenshot.png)
+![Projects Page Screenshot](./assets/images/ProjectPageScreenshot.jpg)
