@@ -7,7 +7,7 @@ my new found skills to create resources for my students. My hobby soon became my
 decided to take the next step by attending the SMU Coding Bootcamp to study Full-Stack Web Development.
 
 ### Resume
-[Click Here](https://mark-mulligan.github.io/assets/images/MarkMulligan-Resume.pdf)
+[Click Here](https://mark-mulligan.github.io/assets/images/MarkMulliganSoftwareDeveloperResume.pdf)
 
 ### Personal Portfolio
 [Click Here](https://Mark-Mulligan.github.io/)
