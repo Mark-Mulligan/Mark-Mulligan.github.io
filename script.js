@@ -169,6 +169,22 @@ function runProjectJavascript() {
   console.log("project js ran");
   let projectInfo = [
     {
+      title: "Sneakerheads",
+      overview:
+        `This application was part of a collaborative group project I did during the SMU coding bootcamp. It is an online forum for shoe collectors to share their collections or to buy/trade shoes from other collectors. Additionally, users are able to chat with their fellow Sneakerheads in the app. A feed page shows all uploads from other users. If you'd like to review a certain user's page, you can click on their name from the feed page.`,
+      liveLink: "https://sneaker-heads.herokuapp.com/",
+      githubLink:
+        "https://github.com/hugo2211/Sneaker_Head",
+    },
+    {
+      title: "Google Books Search",
+      overview:
+        "This application allows the user to sign in using google (google oauth2). They can then proceed to search for books using the Google Books Api. The app allows users to save books they like for later. These books are stored in a database (mongoDB) and can later be viewed or deleted. This application is built with a React.js Frontend and a Node.js backend on top of a MongoDB Database.",
+      liveLink: "https://react-google-books-app-1.herokuapp.com/",
+      githubLink: "https://github.com/Mark-Mulligan/google-book-search",
+    },
+    
+    {
       title: "Outdoor Adventures",
       overview:
         "This application was part of a collaborative group project I did during the SMU coding bootcamp. This project allows the user to easily look up and access information about all of the United States national parks. This application uses MySQL to persists data about the users, passport for authentication, and handle bars templating to generate dynamic pages on the front end. This application makes use of the national parks service API and populates the database with data from the API each time the server is restarted. This allows for the application to stay up to date on infromation about the national parks.",
@@ -177,25 +193,18 @@ function runProjectJavascript() {
         "https://github.com/Mark-Mulligan/SMU-Project-02-Outdoor-Adventures",
     },
     {
-      title: "Ultimate List App",
-      overview:
-        "This is a full stack web app that allows the user to create an account, create lists, update them and delete them.  It is built on an express server, uses mongoDB to store data, and features passport for authentication.",
-      liveLink: "https://ultimatelistapp.herokuapp.com/",
-      githubLink: "https://github.com/Mark-Mulligan/ultimateListApp",
-    },
-    {
-      title: "React Hangman App",
-      overview:
-        "This application is built with React on top of an Express.js server.  It is my take on the traditional hangman game. The words for the game are generated randomly through a third party API. The app utilizes many different elements of React such as hooks, state, and conditional rendering.",
-      liveLink: "https://hangman-react-app.herokuapp.com/",
-      githubLink: "https://github.com/Mark-Mulligan/reactHangmanApp",
-    },
-    {
       title: "Percussion Scale Website",
       overview:
         "This is a custom program I built for my percussion students. Because of Covid, many of my students were at home. A lot of them did not have access to mallet percussion instruments, so I built this website to help them practice their scales.",
       liveLink: "https://mark-mulligan.github.io/percussionScaleWebsite",
       githubLink: "https://github.com/Mark-Mulligan/percussionScaleWebsite",
+    },
+    {
+      title: "Ultimate List App",
+      overview:
+        "This is a full stack web app that allows the user to create an account, create lists, update them and delete them.  It is built on an express server, uses mongoDB to store data, and features passport for authentication.",
+      liveLink: "https://ultimatelistapp.herokuapp.com/",
+      githubLink: "https://github.com/Mark-Mulligan/ultimateListApp",
     },
   ];
 
@@ -204,7 +213,7 @@ function runProjectJavascript() {
   $(".carousel-control-prev").click(function () {
     currentProject = $(".carousel-item.active").attr("data-project-num");
     if (currentProject != 0) currentProject--;
-    else currentProject = 3;
+    else currentProject = 4;
     setTimeout(function () {
       udpateProjectInfo(projectInfo);
     }, 460);
@@ -212,7 +221,7 @@ function runProjectJavascript() {
 
   $(".carousel-control-next").click(function () {
     currentProject = $(".carousel-item.active").attr("data-project-num");
-    if (currentProject != 3) currentProject++;
+    if (currentProject != 4) currentProject++;
     else currentProject = 0;
     setTimeout(function () {
       udpateProjectInfo(projectInfo);
