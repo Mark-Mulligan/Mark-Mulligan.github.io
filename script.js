@@ -84,11 +84,11 @@ function animatedTitle() {
       opacity: [0.5, 1],
       scaleX: [0, 1],
       easing: "easeInOutExpo",
-      duration: 700,
+      duration: 400,
     })
     .add({
       targets: ".ml5 .line",
-      duration: 800,
+      duration: 600,
       easing: "easeOutExpo",
       translateY: (el, i) => lineAnimation(i),
     })
@@ -97,24 +97,24 @@ function animatedTitle() {
       opacity: [0, 1],
       scaleY: [0.5, 1],
       easing: "easeOutExpo",
-      duration: 800,
-      offset: "-=600",
+      duration: 600,
+      offset: "-=400",
     })
     .add({
       targets: ".ml5 .letters-left",
       opacity: [0, 1],
       translateX: ["0.5em", 0],
       easing: "easeOutExpo",
-      duration: 1200,
-      offset: "-=300",
+      duration: 900,
+      offset: "-=200",
     })
     .add({
       targets: ".ml5 .letters-right",
       opacity: [0, 1],
       translateX: ["-0.5em", 0],
       easing: "easeOutExpo",
-      duration: 1200,
-      offset: "-=600",
+      duration: 900,
+      offset: "-=500",
     })
     .add({
       targets: ".ml1 .letter",
@@ -122,8 +122,8 @@ function animatedTitle() {
       opacity: [0, 1],
       translateZ: 0,
       easing: "easeOutExpo",
-      duration: 600,
-      offset: "-=800",
+      duration: 300,
+      offset: "-=700",
       delay: (el, i) => 70 * (i + 1),
     })
     .add({
@@ -131,21 +131,21 @@ function animatedTitle() {
       scaleX: [0, 1],
       opacity: [0.5, 1],
       easing: "easeOutExpo",
-      duration: 700,
-      offset: "-=875",
+      duration: 400,
+      offset: "-=775",
       delay: (el, i, l) => 80 * (l - i),
     })
     .add({
       targets: ".line",
       opacity: 0,
-      duration: 800,
+      duration: 700,
       easing: "easeOutExpo",
-      delay: 500,
+      delay: 200,
     })
     .add({
       targets: ".contact-links-container",
       opacity: [0, 1],
-      duration: 1000,
+      duration: 700,
       easing: "linear",
     });
 }
