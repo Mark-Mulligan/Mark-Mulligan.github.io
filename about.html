@@ -1,136 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/1411ccb3d9.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
+    />
+
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/styles.css" />
 
-    <title>About</title>
+    <title>Mark Mulligan</title>
   </head>
-
   <body>
-    <div class="container-fluid about-section transition-from-top">
-      <div class="navbar-container">
-        <nav class="navbar navbar-expand-md mr-auto custom-navbar">
-          <a class="navbar-brand" href="/index.html">Mark Mulligan</a>
-          <button
-            class="navbar-toggler ml-auto navbar-dark border"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-center text-center"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav navbar-right">
-              <li class="nav-item">
-                <a class="nav-link" href="/about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/skills.html">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact.html"
-                  >Contact<span class="sr-only">(current)</span></a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="navbar-spacer"></div>
-        </nav>
-      </div>
+    <div class="hero-wrapper">
+      <nav class="navbar">
+        <ul class="nav-links-container">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</li>
+          <li><a href="./index.html#contact-section">Contact</a></li>
+        </ul>
+      </nav>
 
-      <div class="about-container container">
-        <div class="about-title-container">
-          <h1>About Me</h1>
-          <hr />
-        </div>
+      <section class="container about-section">
         <div class="row">
-          <div class="col-lg-5 col-12 text-center profile-picture-col">
-            <img
-              class="img-fluid"
-              src="./assets/images/profile-picture-square-removebg-preview.png"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-7 col-12 about-text-col">
-            <p>Hey, I'm Mark and I am a web developer based in Dallas, TX.</p>
-
-            <p>
-              I first picked up coding as side hobby when I was working as a
-              Band Director. I then began using my new found skills to create
-              resources for my students. My hobby soon became my passion, and I
-              decided to take the next step by attending the SMU Coding Bootcamp
-              to study Full-Stack Web Development.
-            </p>
-
-            <p class="last-p">
-              After graduating, I plan to purse a career in web development and
-              look forward to continuing to improve my skills as a developer.
-            </p>
-
-            <a href="./assets/images/MarkMulliganFullStackResume.pdf" target="_blank">
-              <button id="resume" class="mt-4 btn btn-outline-light">
-                Resume
-              </button>
-            </a>
-            <div class="mt-2">
-              <a class="contact-link" href="mailto:mark.mulligan.jr1@gmail.com"
-                >mark.mulligan.jr1@gmail.com</a
-              >
+          <div class="col">
+            <h1 class="about-title">About Me</h1>
+            <div class="about-container">
+              <p>
+                Hi!  I'm Mark, a full stack developer based in Dallas, TX.
+              </p>
+              <p>
+                I enjoy all aspects of developing, whether it is creating amazing
+                user interfaces, building custom APIs, setting up an express
+                server, or organzing and working with databases. I like to build
+                practical projects that help make people's lives easier.
+              </p>
+              <p>
+                I currently work with the MERN Stack (mongoDB, Express.js,
+                React.js, and Node.js), but I am always learning something new. I
+                am also well versed in SQL, Javascript, HTML, CSS, Jquery, and
+                Bootstrap.
+              </p>
             </div>
+            <a
+              class="btn btn-outline-dark projects-button mr-2"
+              href="./index.html#projects-section"
+              >Projects</a
+            >
+            <a
+              class="btn btn-outline-dark projects-button"
+              href="./assets/images/MarkMulliganFullStackResume.pdf"
+              >Resume</a
+            >
           </div>
+          <div class="image-col col d-flex justify-content-center">
+            <img class="profile-picture" src="./assets/images/profile-picture-square-removebg-preview.png" alt="Mark Mulligan Picture"/>
+          </div>
+          
         </div>
-      </div>
+        
+      </section>
     </div>
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Anime.js-->
-    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
-
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.min.js"
-      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
+    <script src="assets/scripts/script.js"></script>
   </body>
 </html>

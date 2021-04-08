@@ -1,121 +1,160 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
 
-  <!-- Linked In Meta Tags-->
-  <meta property="og:title" content='Personal Portfolio'/>
-  <meta property="og:image" content='https://mark-mulligan.github.io/assets/images/SneakerHeadsScreenShot.jpeg'/>
-  <meta property="og:description" content="Mark Mulligan"/>
-  <meta property="og:url" content='https://mark-mulligan.github.io'/>
-
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/1411ccb3d9.js" crossorigin="anonymous"></script>
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/css/styles.css">
-
-  <title>Mark Mulligan</title>
-</head>
-
-<body>
-
-
-  <div class="hero-section">
-    <div class="navbar-container">
-      <nav class="navbar navbar-expand-md mr-auto custom-navbar">
-        <a class="navbar-brand" href="/index.html">Mark Mulligan</a>
-        <button class="navbar-toggler ml-auto navbar-dark border" type="button" data-toggle="collapse"
-          data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNav">
-          <ul class="navbar-nav navbar-right">
-            <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/skills.html">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact<span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </div>
-        <div class="navbar-spacer"></div>
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Mark Mulligan</title>
+  </head>
+  <body>
+    <div class="hero-wrapper">
+      <nav class="navbar">
+        <ul class="nav-links-container">
+          <li>Home</li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+        </ul>
       </nav>
+
+      <section class="container hero-section">
+        <div>
+          <h1 class="title">Mark</h1>
+          <h1 class="title">Mulligan</h1>
+          <div class="description-container">
+            <p class="description">
+              Full stack developer that can do a little bit of everything.
+            </p>
+          </div>
+          <a
+            class="btn btn-outline-dark projects-button"
+            href="#projects-section"
+            >Projects</a
+          >
+        </div>
+        <div class="image-col"></div>
+      </section>
     </div>
 
-    <div class="name-container">
-      <div class="name-wrapper">
-        <h1 class="ml5">
-          <span class="text-wrapper">
-            <span class="line line1"></span>
-            <span class="letters letters-left">Mark</span>
-            <span class="letters letters-right">Mulligan</span>
-            <span class="line line2"></span>
-          </span>
-        </h1>
-
-        <h2 class="ml1">
-          <span class="text-wrapper">
-            <span class="letters">Web Developer</span>
-          </span>
-        </h2>
-      </div>
-    </div>
-
-    <div class="container contact-links-container not-shown">
-      <div class="row">
-        <div class="col-sm-3 col-6 text-center contact-link-wrapper">
-          <a href="https://github.com/Mark-Mulligan" class="contact-link" target="_blank">
-            <i class="fab fa-3x fa-github"></i>
-          </a>
-        </div>
-        <div class="col-sm-3 col-6 text-center contact-link-wrapper">
-          <a href="https://www.linkedin.com/in/mark-mulligan-90b4671b7/" class="contact-link" target="_blank">
-            <i class="fab fa-3x fa-linkedin"></i>
-          </a>
-        </div>
-        <div class="col-sm-3 col-6 col text-center contact-link-wrapper">
-          <a href="https://www.facebook.com/mark.mulligan.5264" class="contact-link" target="_blank">
-            <i class="fab fa-3x fa-facebook-f"></i>
-          </a>
-        </div>
-        <div class="col-sm-3 col-6 text-center contact-link-wrapper">
-          <a href="mailto:mark.mulligan.jr1@gmail.com" class="contact-link" target="_blank">
-            <i class="fas fa-3x fa-envelope"></i>
-          </a>
+    <section class="projects-section" id="projects-section">
+      <div class="fixed-background project-1-image">
+        <div class="project-description">
+          <div class="description-text-container">
+            <h2>SneakerHeads</h2>
+            <p>Social Media sight for those that love shoes.</p>
+            <div class="project-links-container">
+              <div>
+                <a href="https://sneaker-heads.herokuapp.com" target="_blank">View Project</a>
+              </div>
+              <div>
+                <a href="https://github.com/hugo2211/Sneaker_Head" target="_blank">Github</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+      <div class="fixed-background project-2-image">
+        <div class="project-description">
+          <div class="description-text-container">
+            <h2>Invoice Generator</h2>
+            <p>
+              Designed to help private lesson teachers, tutors, and others who
+              manage a studio of students.
+            </p>
+            <div class="project-links-container">
+              <div>
+                <a href="https://invoice-generator-1.herokuapp.com" target="_blank">View Project</a>
+              </div>
+              <div>
+                <a href="https://github.com/Mark-Mulligan/lesson-invoice-generator-v2" target="_blank">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fixed-background project-3-image">
+        <div class="project-description">
+          <div class="description-text-container">
+            <h2>Outdoor Adventures</h2>
+            <p>Built for those who love the great outdoors!</p>
+            <div class="project-links-container">
+              <div>
+                <a href="https://smu-project-outdoor-adventures.herokuapp.com/" target="_blank">View Project</a>
+              </div>
+              <div>
+                <a href="https://github.com/Mark-Mulligan/SMU-Project-02-Outdoor-Adventures" target="_blank">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-section" id="contact-section">
+      <div class="container contact-container">
+        <h2>Mark Mulligan</h2>
+        <a class="email" href="mailto:mark.mulligan.jr1@gmail.com"
+          >mark.mulligan.jr1@gmail.com</a
+        >
+        <ul class="contact-links">
+          <li>
+            <span
+              ><a
+                href="https://www.linkedin.com/in/mark-mulligan-90b4671b7/"
+                target="_blank"
+              >
+                Linkedin
+              </a></span
+            >
+          </li>
+          <li>
+            <span
+              ><a href="https://github.com/Mark-Mulligan" target="_blank">
+                Github
+              </a></span
+            >
+          </li>
+          <li>
+            <span
+              ><a
+                href="https://www.facebook.com/mark.mulligan.5264"
+                target="_blank"
+              >
+                Facebook
+              </a></span
+            >
+          </li>
+          <li>
+            <span
+              ><a
+                href="./assets/images/MarkMulliganFullStackResume.pdf"
+                target="_blank"
+                >Resume</a
+              ></span
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
 
-
-  <!-- Optional JavaScript; choose one of the two! -->
-
-  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-  </script>
-
-  <!-- Anime.js-->
-  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/scripts/script.js"></script>
+  </body>
 </html>
