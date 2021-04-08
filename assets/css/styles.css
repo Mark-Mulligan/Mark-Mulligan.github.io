@@ -119,9 +119,17 @@ a:hover {
   position: relative;
 }
 
+.project-2-image {
+  background-image: url('../images//Webp.net-resizeimage.jpg');
+}
+
 @media (min-width: 500px) {
   .fixed-background {
     background-attachment: fixed;
+  }
+
+  .project-2-image {
+    background-image: url('../images/invoiceGeneratorBackground.jpg');
   }
 }
 
@@ -129,13 +137,12 @@ a:hover {
   background-image: url('../images/SneakerHeadsScreenShot.jpeg');
 }
 
-.project-2-image {
-  background-image: url('../images/invoiceGeneratorBackground.jpg');
-}
+
 
 .project-3-image {
   background-image: url('../images/outdoorAdventures.jpg');
 }
+
 
 .project-description {
   position: absolute;
