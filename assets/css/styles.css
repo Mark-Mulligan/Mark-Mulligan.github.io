@@ -113,11 +113,16 @@ a:hover {
 
 /* Projects Section */
 .fixed-background {
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   position: relative;
+}
+
+@media (min-width: 500px) {
+  .fixed-background {
+    background-attachment: fixed;
+  }
 }
 
 .project-1-image {
