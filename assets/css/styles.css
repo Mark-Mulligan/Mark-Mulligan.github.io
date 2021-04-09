@@ -91,10 +91,6 @@ a:hover {
   .title {
     font-size: 65px;
   }
-
-  .hero-section {
-    min-height: 55vh;
-  }
 }
 
 .description-container {
