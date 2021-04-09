@@ -1,5 +1,3 @@
-console.log('text');
-
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
       e.preventDefault();
@@ -14,7 +12,6 @@ window.onload = function () {
 
   // Add a driver that we use to control our animations
   lax.addDriver('scrollY', function () {
-    console.log(window.scrollY);
     return window.scrollY
   })
 
