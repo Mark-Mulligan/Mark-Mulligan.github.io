@@ -119,8 +119,16 @@ a:hover {
   position: relative;
 }
 
+.project-1-image {
+  background-image: url('../images/sneakerheadsMobile.jpg');
+}
+
 .project-2-image {
-  background-image: url('../images//Webp.net-resizeimage.jpg');
+  background-image: url('../images/Webp.net-resizeimage.jpg');
+}
+
+.project-3-image {
+  background-image: url('../images/outdoorAdventuresMobile5.jpg');
 }
 
 @media (min-width: 500px) {
@@ -128,20 +136,22 @@ a:hover {
     background-attachment: fixed;
   }
 
+  .project-1-image {
+    background-image: url('../images/SneakerHeadsScreenShot.jpeg');
+  }
+
   .project-2-image {
     background-image: url('../images/invoiceGeneratorBackground.jpg');
   }
+
+  
+
+  .project-3-image {
+    background-image: url('../images/outdoorAdventures.jpg');
+  }
 }
 
-.project-1-image {
-  background-image: url('../images/SneakerHeadsScreenShot.jpeg');
-}
 
-
-
-.project-3-image {
-  background-image: url('../images/outdoorAdventures.jpg');
-}
 
 
 .project-description {
