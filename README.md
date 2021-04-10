@@ -1,10 +1,19 @@
 # Mark Mulligan
 
 ## About Me
-Hey, I'm Mark and I am a web developer based in Dallas, TX. 
-I first picked up coding as side hobby when I was working as a Band Director. I then began using
-my new found skills to create resources for my students. My hobby soon became my passion, and I
-decided to take the next step by attending the SMU Coding Bootcamp to study Full-Stack Web Development.
+Hi!  I'm Mark, a full stack developer based in Dallas, TX.
+<br>
+<br>
+I enjoy all aspects of developing, whether it is creating amazing
+user interfaces, building custom APIs, setting up an express
+server, or organzing and working with databases. I like to build
+practical projects that help make people's lives easier.
+<br>
+<br>
+I currently work with the MERN Stack (mongoDB, Express.js,
+React.js, and Node.js), but I am always learning something new. I
+am also well versed in SQL, Javascript, HTML, CSS, Jquery, and
+Bootstrap.
 
 ### Resume
 [Click Here](https://mark-mulligan.github.io/assets/images/MarkMulliganFullStackResume.pdf)
