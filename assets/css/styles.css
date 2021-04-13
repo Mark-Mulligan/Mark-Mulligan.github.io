@@ -131,6 +131,10 @@ a:hover {
   background-image: url('../images/outdoorAdventureMobile7.jpg');
 }
 
+.project-4-image {
+  background-image: url('../images/percussionScaleWebsite.jpg');
+}
+
 @media (min-width: 500px) {
   .fixed-background {
     background-attachment: fixed;
