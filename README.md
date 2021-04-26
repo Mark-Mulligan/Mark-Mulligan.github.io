@@ -16,7 +16,7 @@ am also well versed in SQL, Javascript, HTML, CSS, Jquery, and
 Bootstrap.
 
 ### Resume
-[Click Here](https://mark-mulligan.github.io/assets/images/MarkMulliganFrontEndDeveloperResume.pdf)
+[Click Here](https://mark-mulligan.github.io/assets/images/MarkMulliganFrontEndDeveloper.pdf)
 
 ### Personal Portfolio
 [Click Here](https://Mark-Mulligan.github.io/)
